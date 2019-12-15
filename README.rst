@@ -154,3 +154,17 @@ so whats in the library?
 
 also, we'll have command line tools or a web interface for testing or more
 detailed operations (``bin/`` in this repo).
+
+notes
+=====
+
+seems like we may be able to crutch ourselves on top of the existing
+functionality of the Push 2 (and more) controller scripts--we might also
+be able to actually build a script that is acts as a client and
+executes at the more fundamental layer, which is good.
+
+its also good that we have the __future__ functions imported in these
+scripts. that may not carry to older versions of the scripts, but not
+to worry... we also got them.
+
+
