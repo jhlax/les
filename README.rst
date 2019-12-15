@@ -12,8 +12,23 @@ Windows and macOS.
 getting started
 ---------------
 
-first, make sure you have **Python 3.6+** installed, then perform
+first, clone this repository.
+
+then, ``cd`` into the clone.
+
+finally, make sure you have **Python 3.6+** installed, then perform:
 
 .. code:: bash
 
     pip install pipenv
+    # pipenv --python <the python version you have; i.e. 3.6>
+    pipenv --python 3.6
+    pipenv shell
+    pipenv install
+
+this will allow you to create the virtual environment for this project, and
+install the packages for this project.
+
+    this project may add more libraries
+    and packages as dependencies; run the ``pipenv install`` command when you
+    ``git pull``.
