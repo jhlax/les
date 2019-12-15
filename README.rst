@@ -9,4 +9,10 @@ Windows and macOS.
 :authors: @inversil, @jhlax
 :version: 0.0.1-alpha
 
+getting started
+---------------
 
+first, make sure you have **Python 3.6+** installed, then perform
+
+.. code
+    pip install pipenv
