@@ -104,3 +104,28 @@ C. Midas's code!!!!!!
 D. Reducing need for repeating code. Very important
 
 E. Interfaces (comp sci interface model)
+
+deliberations on dependent functionality
+----------------------------------------
+
+i am thinking either ``pymidi`` or ``mido`` for the MIDI interfacing. getting
+the controller script schemas are somewhat easy--they've been made available
+by julian bayle at his website_.
+
+.. _website: https://julienbayle.studio/ableton-live-midi-remote-scripts/
+
+he was also kind enough to give us another link_ to the Live API. I am **using
+Ableton Live API version 10.1**, but will attempt to create interfaces that
+will backport for as many Live versions as possible.
+
+.. _link: https://julienbayle.studio/PythonLiveAPI_documentation/Live10.1.xml
+
+    the API link is an XML file, I have found most browsers able to properly
+    display this kind of file in the way that it is meant to be seen, but if
+    yours outputs raw text try a different or more modern browser.
+
+he also gives us a bevy of decompiled controller scripts at his github_ repo.
+
+.. _github: https://github.com/gluon/AbletonLive10.1_MIDIRemoteScripts
+
+this has been cloned in to this repo as a submodule.

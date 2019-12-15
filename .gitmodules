@@ -7,3 +7,6 @@
 [submodule "LESgit"]
 	path = LESgit
 	url = https://github.com/inversil/LESgit
+[submodule "AbletonLive10.1_MIDIRemoteScripts"]
+	path = AbletonLive10.1_MIDIRemoteScripts
+	url = https://github.com/gluon/AbletonLive10.1_MIDIRemoteScripts
