@@ -65,4 +65,42 @@ other than that:
     file. starting from the bottom, the functions are the most important part
     right now.
 
+how are we gonna do this
+------------------------
 
+good question. it's going to take a good amount of reading the code provided in
+the Lua most likely. as we read it, we document what its doing in terms of
+function. we may be able to eliminate some code for various things, and were
+probably going to add or change things, as that is the way it goes when you
+convert software!!!
+
+standardization of the features so they are both modular and upgradeable is of
+utmost importance to me. i mean plugins could be cool. ESPECIALLY if we're
+running this through MIDI controller scripts.
+
+the GUI affects are in the back of my mind as of now--as long as I can have the
+system communicate over MIDI initially (with CLI scripts as they are needed) I
+will be comfortable. the GUI and process shadowing is the user layer above that
+will be essential to the end-user. perhaps for testing purposes a self-served
+web interface could be used.
+
+documentation is huge here. we want this to be really well thought out, and
+well-documented for contributors and for, potentially, people to read when
+they make plugins.
+
+again Midas has all control over this code--I am just working on an alternate
+method of writing it... it's not *necessary* per se, but I think it would be
+a much more manageable and improvable model.
+
+things to look at
+-----------------
+
+A. Python documentation
+
+B. A good Python MIDI package
+
+C. Midas's code!!!!!!
+
+D. Reducing need for repeating code. Very important
+
+E. Interfaces (comp sci interface model)
