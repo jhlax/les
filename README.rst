@@ -152,6 +152,8 @@ so whats in the library?
 
 5. the GUI (in the future) in ``pyles.gui``
 
+6. utility functions in ``pyles.util``
+
 also, we'll have command line tools or a web interface for testing or more
 detailed operations (``bin/`` in this repo).
 
