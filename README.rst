@@ -6,6 +6,9 @@ and potentially other languages--*BUT* maintainable and as a "write once, deploy
 everywhere" code base; easy to add and update features that will propogate to both
 Windows and macOS.
 
+All credit and licensing goes to @inversil (Inverted Silence / Midas Klare, my
+friend from the Netherlands)
+
 :authors: @inversil, @jhlax
 :version: 0.0.1-alpha
 
