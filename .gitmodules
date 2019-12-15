@@ -10,3 +10,6 @@
 [submodule "AbletonLive10.1_MIDIRemoteScripts"]
 	path = AbletonLive10.1_MIDIRemoteScripts
 	url = https://github.com/gluon/AbletonLive10.1_MIDIRemoteScripts
+[submodule "sndalgo"]
+	path = sndalgo
+	url = https://github.com/jhlax/sndalgo
