@@ -59,7 +59,12 @@ other than that:
 
 6. ``LESosx``, ``LESwin``, ``LESgit``: the actual repos from @inversil for LES,
    that we will *attempt* to convert. probably from the Lua in the OS X repo
-   but also with the changelog provided in the windows repo
+   but also with the changelog provided in the windows repo. **note these have
+   been moved to the ``basis/`` folder.**
+
+7. ``sndalgo``: this is my other repository that works with a lot of different
+   operations regarding signal data like xenakis sieves, note/pitch converters,
+   wavetable generation, printing signal plots, and as time goes on more.
 
     the end result will have more tooling for exporting as an installable
     file. starting from the bottom, the functions are the most important part
