@@ -124,8 +124,9 @@ will backport for as many Live versions as possible.
     display this kind of file in the way that it is meant to be seen, but if
     yours outputs raw text try a different or more modern browser.
 
-he also gives us a bevy of decompiled controller scripts at his github_ repo.
+he also gives us a bevy of decompiled controller scripts at his github_ repo;
+this has been cloned in to this repo as a submodule, as well as the XML
+document above.
 
 .. _github: https://github.com/gluon/AbletonLive10.1_MIDIRemoteScripts
 
-this has been cloned in to this repo as a submodule.
