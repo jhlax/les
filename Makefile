@@ -6,3 +6,6 @@ push:
 	git commit
 	git push
 
+lock:
+	pipenv lock --pre
+
