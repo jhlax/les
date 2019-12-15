@@ -1,0 +1,9 @@
+[submodule "LESosx"]
+	path = LESosx
+	url = https://github.com/inversil/LESosx
+[submodule "LESwin"]
+	path = LESwin
+	url = https://github.com/inversil/LESwin
+[submodule "LESgit"]
+	path = LESgit
+	url = https://github.com/inversil/LESgit
