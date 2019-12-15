@@ -35,3 +35,31 @@ install the packages for this project.
     this project may add more libraries
     and packages as dependencies; run the ``pipenv install`` command when you
     ``git pull``.
+
+structure of the repository
+---------------------------
+
+(this) ``README.rst`` is where general information of the project is
+contained.
+
+other than that:
+
+1. ``TODO.rst``: a todo document, where tasks can be checked off.
+
+2. ``CHANGELOG.rst``: the changelog as we continue through.
+
+3. ``pyles/``: this is the core library of functions
+
+4. ``scripts/``: command line scripts for testing or anything we want to make
+   them.
+
+5. ``Pipfile``: this contains all the dependencies for the Python environment.
+   remember to ``pipenv install`` in the directory to make sure they are
+   set up correctly.
+
+    the end result will have more tooling for exporting as an installable
+    file. starting from the bottom, the functions are the most important part
+    right now.
+
+
+
