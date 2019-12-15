@@ -108,17 +108,17 @@ E. Interfaces (comp sci interface model)
 deliberations on dependent functionality
 ----------------------------------------
 
+midi
+~~~~
+
 i am thinking either ``pymidi`` or ``mido`` for the MIDI interfacing. getting
 the controller script schemas are somewhat easy--they've been made available
 by julian bayle at his website_.
-
-.. _website: https://julienbayle.studio/ableton-live-midi-remote-scripts/
 
 he was also kind enough to give us another link_ to the Live API. I am **using
 Ableton Live API version 10.1**, but will attempt to create interfaces that
 will backport for as many Live versions as possible.
 
-.. _link: https://julienbayle.studio/PythonLiveAPI_documentation/Live10.1.xml
 
     the API link is an XML file, I have found most browsers able to properly
     display this kind of file in the way that it is meant to be seen, but if
@@ -128,5 +128,29 @@ he also gives us a bevy of decompiled controller scripts at his github_ repo;
 this has been cloned in to this repo as a submodule, as well as the XML
 document above.
 
+.. _website: https://julienbayle.studio/ableton-live-midi-remote-scripts/
+.. _link: https://julienbayle.studio/PythonLiveAPI_documentation/Live10.1.xml
 .. _github: https://github.com/gluon/AbletonLive10.1_MIDIRemoteScripts
 
+cli tools
+~~~~~~~~~
+
+we will use ``click`` because I *know* it. also it's very quick to use.
+
+library
+~~~~~~~
+
+so whats in the library?
+
+1. MIDI interfacing in ``pyles.midi``
+
+2. Ableton API abstraction in ``pyles.api``
+
+3. their marriage in ``pyles.core``
+
+4. the backend server in ``pyles.server``
+
+5. the GUI (in the future) in ``pyles.gui``
+
+also, we'll have command line tools or a web interface for testing or more
+detailed operations (``bin/`` in this repo).
