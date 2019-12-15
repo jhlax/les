@@ -14,6 +14,6 @@ getting started
 
 first, make sure you have **Python 3.6+** installed, then perform
 
-.. code
+.. code:: bash
 
     pip install pipenv
